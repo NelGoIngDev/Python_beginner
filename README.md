@@ -15,7 +15,8 @@ Para iniciar a experimentar el hermoso mundo del lenguaje de Python hay varias f
 2. Puedes usar un Replit, en esta página hay diversas opciones de programas que puedes utilizar Online, allí puedes acceder por medio de una cuenta Google, una cuenta de GitHub u otra opción que en este momento no recuerdo (me disculpan porfa), al crear la cuenta, te diriges la columna izquierda en la parte de arriba hay una opción que dice "Create Repl", acto seguido muestra una ventana donde le permite escoger el programa que necesite y busca Python y listo, se crea el área para poder trabajar, si necesita saber cómo trabajar debes buscar algún video en YouTube donde expliquen como poder trabajar allí ya que por el momento no he realizados videos de cómo trabajarlo.
 3. Por medio de Google Drive también nos permite crear un espacio donde podemos realizar ejercicios y poder conocer las funciones de cada extensión, también recomiendo buscar un video para lograr trabajar ahí ya que personalmente no lo he experimentado.
 
->>>Nota básica para tener en cuenta<<<
+>Nota básica para tener en cuenta
+
 Hay diferentes tipos de datos:
 1. string => Cadenas de texto.
 2. int => Números o Enteros.
