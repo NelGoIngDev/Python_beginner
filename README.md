@@ -1,4 +1,4 @@
-# Python_beginner
+# Python_beginner en Español
 En este repositorio vas a poder encontrar lo básico para aprender python
 
 Primeras recomendaciones: 
