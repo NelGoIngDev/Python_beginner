@@ -37,7 +37,7 @@ print(template)
 template2 = 'Hola, mi nombre es {} y mi apellido es {}'.format(name, last_name)
 print('v2 =>', template2)
 
-# Y por ultimo hay otra manera más abreviada de digitarlo: al finicio se digita la "f" de format
+# Y por ultimo hay otra manera más abreviada de digitarlo: al inicio se digita la "f" de format
 
 template3 = f'Hola, mi nombre es {name} y mi apellido es {last_name}'
 print('v3 =>', template3)
