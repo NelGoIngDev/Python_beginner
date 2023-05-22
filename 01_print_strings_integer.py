@@ -68,3 +68,19 @@ P E M D A S
 5. Adición
 6. Sustracción o Resta
 '''
+# Hay una manera de realizar las operaciones de forma rápida y es escribiendo la operación y el signo igual:
+
+suma -= 2 # Recordemos que el valor de suma se le dió en la variable de arriba, el resultado era 7
+print('Este es el resultado de utilizar "-=" le restamos 2 =>', suma) # Ahora le restamos 2 y el resultado es 5
+
+suma += 2
+print('Este es el resultado de utilizar "+=" le sumamos 2 =>', suma) 
+# Aca el resultado es 7, ya que el valor de suma lo cambiamos al momento que le restamos 2
+
+suma *= 2
+print('Este es el resultado de utilizar "*=" lo multiplicamos por 2 =>', suma)
+# Aca el resultado es 14, ya que el valor de suma lo cambiamos al momento que le sumamos 2
+
+suma /= 2
+print('Este es el resultado de utilizar "/=" lo dividimos en 2 =>', suma)
+# Aca el resultado es 7, ya que el valor de suma lo cambiamos al momento que le dividimos 2
