@@ -1,5 +1,5 @@
 # Python_beginner en Español
-En este repositorio vas a poder encontrar lo básico para aprender python
+En este repositorio vas a poder encontrar lo básico para aprender python.
 
 Primeras recomendaciones: 
 Recomiendo que realice un aprendizaje progresivo de la siguiente manera.
@@ -23,3 +23,6 @@ Hay diferentes tipos de datos:
 3. boolean => Estos se caracterizan por arrojar Verdadero o Falso (En la terminal se refleja como True y False).
 4. input => Estos se utilizan para interactuar con el usuario.
 
+CONTENIDO:
+1. En 01_print_string_integer.py: Encontrarán el uso de print, el uso de los string y el inicio de utilizar los integer.
+2. main: Es un proyecto del juego de piedra papel o tigera, este proyecto está en desarrollo.
