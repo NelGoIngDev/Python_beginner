@@ -30,7 +30,6 @@ while keep_playing:
         # Incrementa las victorias del User
         user_wins += 1
         print(f'Usuario ganó!, Usuario: {user_wins}, Consola: {computer_wins}')
-        
       else:
         print('Papel gana a piedra')
         # Incrementa las victorias del Computer
@@ -42,28 +41,25 @@ while keep_playing:
         print('Papel gana a piedra')
         user_wins += 1  
         print(f'Usuario ganó!, Usuario: {user_wins}, Consola: {computer_wins}')
-            
       else:
         print('Tijera gana a papel')
         computer_wins += 1
         print(f'Consola ganó!, Usuario: {user_wins}, Consola: {computer_wins}')
-        
-
+    
     elif user_option == 'tijera':
       if computer_option == 'papel':
         print('Tijera gana a papel')
         user_wins += 1
         print(f'Usuario ganó!, Usuario: {user_wins}, Consola: {computer_wins}')
-        
       else:
         print('Piedra gana a tijera')
         computer_wins += 1
         print(f'¡Consola ganó!, Usuario: {user_wins}, Consola: {computer_wins}')
 
-if user_wins > computer_wins:
-  print(f'¡El Usuario ganó la ronda! Marcador final Usuario: {user_wins} Consola: {computer_wins}')
-else:
-  print(f'¡La consola ganó la ronda! Marcador final Usuario: {user_wins} Consola: {computer_wins}')
+  if user_wins > computer_wins:
+    print(f'¡El Usuario ganó la ronda! Marcador final Usuario: {user_wins} Consola: {computer_wins}')
+  else:
+    print(f'¡La consola ganó la ronda! Marcador final Usuario: {user_wins} Consola: {computer_wins}')
 
   play_again = input('¿Quiere seguir jugando?, por favor responda (si/no) => ')
   if play_again.lower() != "si":
