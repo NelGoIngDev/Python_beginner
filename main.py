@@ -4,12 +4,18 @@ option = ('piedra', 'papel', 'tijera')
 # Para que el juego copntinue despues de finalizar la ronda.
 keep_playing = True
 
+rounds = 1
+
 while keep_playing:
 # Variables para contar victorias de cada jugador.
   user_wins = 0
   computer_wins = 0
 
-  while user_wins < 3 and computer_wins < 3:
+  while user_wins < 2 and computer_wins < 2:
+
+    print('*' * 50)
+    print('ROUND ', rounds)
+    print('*' * 50)
     
     user_option = input('Por favor escriba una opción entre piedra, papel o tijera => ')
     user_option = user_option.lower()
@@ -56,11 +62,15 @@ while keep_playing:
         computer_wins += 1
         print(f'¡Consola ganó!, Usuario: {user_wins}, Consola: {computer_wins}')
 
+    rounds += 1
+
   if user_wins > computer_wins:
-    print(f'¡El Usuario ganó la ronda! Marcador final Usuario: {user_wins} Consola: {computer_wins}')
+    print(f'>>>¡El Usuario ganó la ronda!<<< Marcador final Usuario: {user_wins} Consola: {computer_wins}')
   else:
-    print(f'¡La consola ganó la ronda! Marcador final Usuario: {user_wins} Consola: {computer_wins}')
+    print(f'-_-¡La consola ganó la ronda!-_- Marcador final Usuario: {user_wins} Consola: {computer_wins}')
 
   play_again = input('¿Quiere seguir jugando?, por favor responda (si/no) => ')
   if play_again.lower() != "si":
     keep_playing = False
+
+rounds += 1

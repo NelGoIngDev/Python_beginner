@@ -1,3 +1,13 @@
+
+print((8/2)+4*8)
+print(False and True)
+print(int(4.56))
+primos = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41]
+print(primos[3])
+elements = ['water', 'fire', 'wind', 'earth']
+for element in elements:
+    print(element)
+
 '''
 Los Booleans o boleanos se caracterizan por tener solo 2 respuestas, True o False, en español Verdadero o Falso.
 Siempre se debe escribir la palabra True o False con la primera letra en mayúscula, si no se hace genera error.
