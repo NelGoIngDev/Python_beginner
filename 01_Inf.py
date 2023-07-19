@@ -1,5 +1,5 @@
 
-#En estaprimera parte vamos a ver de forma breve como funciona print, type y los números enteros.
+#En esta primera parte vamos a ver de forma breve como funciona print, type y los números enteros.
 
 # con 3 comillas se puede digitar una nota de varias lineas y el # sirve para poner una nota en una sola linea.
 # Esto permite dejar notas informativas y que al momento de ejecutar el programa no refleje errores, que el programa ignore esto.
@@ -58,7 +58,7 @@ print('Modulo o residuo =>', 3%15)
 print('Esta es una operación combinada =>', ((5//2)+3*4)+25+4-46+500)
 
 '''
-Cunado se realizan varias operaciones matemáticas en una sola linea hay que tener en cuenta 
+Cuando se realizan varias operaciones matemáticas en una sola linea hay que tener en cuenta 
 la regla o el orden en que estás se desarrollan, para eso se puede recordar en una palabra:
 P E M D A S
 1. Parentesis
