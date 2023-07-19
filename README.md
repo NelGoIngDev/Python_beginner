@@ -18,9 +18,9 @@ Para iniciar a experimentar el hermoso mundo del lenguaje de Python hay varias f
 >Nota básica para tener en cuenta
 
 Hay diferentes tipos de datos:
-1. string => Cadenas de texto.
-2. int => Números o Enteros.
-3. boolean => Estos se caracterizan por arrojar Verdadero o Falso (En la terminal se refleja como True y False).
+1. string => Cadenas de texto. (str)
+2. integer => Números o Enteros. (int)
+3. boolean => Estos se caracterizan por arrojar Verdadero o Falso (En la terminal se refleja como True y False). (bol)
 4. input => Estos se utilizan para interactuar con el usuario.
 
 CONTENIDO:
