@@ -24,7 +24,7 @@ Hay diferentes tipos de datos:
 4. input => Estos se utilizan para interactuar con el usuario.
 
 CONTENIDO:
-1. En [01_Inf.py (https://github.com/NelGoIngDev/Python_beginner/blob/main/01_Inf.py)]: Encontrarán el uso de print, el uso de los string y el inicio de utilizar los integer (números enteros).
+1. En [01_Inf.py](https://github.com/NelGoIngDev/Python_beginner/blob/main/01_Inf.py): Encontrarán el uso de print, el uso de los string y el inicio de utilizar los integer (números enteros).
 2. En 02_Inf.py: Encontrarán el uso de los Booleans, Transformación de tipos de datos, Operadores de caomparación y Operadores lógicos.
 3. En 03_Inf.py: Encontrarán información adicional como por ejemplo los "sets" que son tipos de conjuntos.
 4. main: Es un proyecto del juego de piedra papel o tigera, este proyecto está en desarrollo.
