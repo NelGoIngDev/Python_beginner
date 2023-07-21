@@ -34,3 +34,32 @@ print(names)
 names.clear()
 print(names)
 print(len(names))
+
+# Para realizar operaciones entre conjuntos podemos iniciar con unir conjuntos, se utiliza union o el simbolo |
+
+names_2 = {'Aminta', 'Beatriz', 'Hector'}
+names_3 = {'Nelson', 'Alejo', 'Helena', 'Jenni'}
+
+names_union = names_2.union(names_3)
+print(names_union)
+
+names_4 = {'Fabian', 'Kim', 'Alex'}
+names_5 = {'Mario', 'Paola', 'Adrian'}
+print(names_4 | names_5)
+
+# Continuemos con la intersección o intersection, también podemos utilizar el simbolo &
+
+names_2.add('Nelson') # Agregamos el nombre Nelson a names_2
+names_5.add('Nelson') # Agregamos el nombre Nelson a names_5
+print(names_2)
+print(names_5)
+
+names_intersection = names_2.intersection(names_5)
+print(names_intersection) # Rta: Nelson
+print(names_2 & names_5) # Rta: Nelson
+
+# Ahora veamos diferencia o difference, también se puede utilizar el simbolo -
+
+names_difference = names_2.difference(names_5)
+print(names_difference)
+print(names_2 - names_5)
