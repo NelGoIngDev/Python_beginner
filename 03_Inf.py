@@ -63,3 +63,12 @@ print(names_2 & names_5) # Rta: Nelson
 names_difference = names_2.difference(names_5)
 print(names_difference)
 print(names_2 - names_5)
+
+# Para realizar la unión que tienen dos conjuntos sin tener en cuenta los que tienen en común se utiliza .symmetric_difference o el simbolo ^
+
+print(names_2) # Para corroborar que se esté ejecutando bien, imprimo las dos variables y tienen en común Nelson
+print(names_5)
+
+name_symmetric = names_2.symmetric_difference(names_5)
+print(name_symmetric) # Se unen sin el nombre Nelson
+print(names_2 ^ names_5)
