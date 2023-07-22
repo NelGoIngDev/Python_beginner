@@ -26,5 +26,6 @@ Hay diferentes tipos de datos:
 CONTENIDO:
 1. En [01_Inf.py](https://github.com/NelGoIngDev/Python_beginner/blob/main/01_Inf.py): Encontrarán el uso de print, el uso de los string y el inicio de utilizar los integer (números enteros).
 2. En [02_Inf.py](https://github.com/NelGoIngDev/Python_beginner/blob/main/02_Inf.py): Encontrarán el uso de los Booleans, Transformación de tipos de datos, Operadores de comparación y Operadores lógicos.
-3. En [03_Inf.py](https://github.com/NelGoIngDev/Python_beginner/blob/main/03_Inf.py): Encontrarán información adicional como por ejemplo los "sets" que son tipos de conjuntos.
-4. main: Es un proyecto del juego de piedra papel o tigera, este proyecto está en desarrollo.
+3. En [03_Inf.py](https://github.com/NelGoIngDev/Python_beginner/blob/main/03_Inf.py): Encontrarán información adicional como por ejemplo los "sets" que son tipos de conjuntos, cómo modificar, agregar, borrar y limpiar un conjunto.
+4. En [04_Inf.py](https://github.com/NelGoIngDev/Python_beginner/blob/main/04_Inf.py): Encontrarán las list comprehension esta es una forma de sintaxis más corta y fácil de leer cuando queremos crear listas.
+5. main: Es un proyecto del juego de piedra papel o tigera, este proyecto está en desarrollo.
