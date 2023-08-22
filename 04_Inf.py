@@ -2,7 +2,8 @@
 Para iniciar con las **list comprehension** debemos tener en cuenta la siguiente sintaxis
 [element for element in iterable] a continuación describiré cada parte de esta sintaxis para tener una mejor comprensión
 element = es el elemento que vamos a hacer parte de esa lista
-for element in iterable = es el ciclo para obtener los elementos de una iteración de una estructura de datos que tengamos definida puede ser una lista, un conjunto o una tupla
+for element in iterable = es el ciclo para obtener los elementos de una iteración de una estructura de datos que tengamos 
+definida puede ser una lista, un conjunto o una tupla
 '''
 # La forma tradicional como se realiza una lista es:
 print('List Comprehension')
@@ -85,3 +86,9 @@ print('Sintaxis comprehension, v3 => ', population_v3)
 
 result = {country: population for (country, population) in population_v3.items() if population > 20}
 print(result)
+
+#Un ejemplo más dando la condición de que saque las vocales de una frase
+
+text = "Hello world, i'm Nelson"
+unique = { c: c.upper() for c in text if c in "aeiou"}
+print(unique)
