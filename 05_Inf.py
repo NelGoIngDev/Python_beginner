@@ -70,4 +70,23 @@ print(result) # Con esto estamos imprimiendo el resultado
 result_2 = sum_with_range(result, result + 1000) # acá utilizamos el resultado anterior como rango y le indicamos que al resultado anterior le sume 1.000
 print(result_2)
 
+# Ahora vamos a desarrollar unos ejercicios para darle más profundidad a la función return y argumentos.
+def find_volumen(length, width, dpeth): # Se puede asignar valores predeterminados con digitar lo siguiente (length=1, width=1, dpeth=1)
+    return length * width * dpeth
 
+result_3 = find_volumen(10, 20, 40) # Podemos dar valor a cada parametro
+# También se le puede dar valor a un solo parámetro de la siguiente manera find_volumen(width=30)
+print(result_3) # Resultado 8000
+
+# Otra caracteristica es que podemos hacer que el return nos devuelva otros valores
+def find_volumen(length=1, width=1, dpeth=1): 
+    return length * width * dpeth, width, 'Hola'
+
+result_4 = find_volumen(width=10) 
+print(result_4) # El resultado es una tupla = (10, 10, 'Hola')
+
+# Podemos imprimirlo en orden de la siguiente manera
+result_4, width, text = find_volumen(width=10) 
+print(result_4)
+print(width)
+print(text)
